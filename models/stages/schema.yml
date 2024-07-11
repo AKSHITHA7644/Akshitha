@@ -1,0 +1,10 @@
+version: 2
+sources:
+- name: datafeed_shared_schema
+database: "{{(DBT_DB)}}"
+schema: DBT_SM
+ tables:
+   Generate model
+- name: STAGE_CUSTOMER_DATA
+- name: STAGE_ORDERA_DATA
+- name: STAGE_PAYMENT_DATA
